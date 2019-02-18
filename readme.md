@@ -1,5 +1,17 @@
 # passerlist
 
+
+
+screenshots:
+
+https://i.imgur.com/wmT5Qkn.png
+
+https://i.imgur.com/eSD7s8U.png
+
+https://i.imgur.com/wb93AUJ.png
+
+
+
 1. Grab data coming from http://www.pshs.edu.ph/nce2018/ and import the data into a MySQL table named Passers
 
 ########
