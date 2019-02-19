@@ -130,9 +130,17 @@ hostname: passerlist
 
 # extra notes for homestead
 
-I followed this tutorial:
+I followed this tutorial to set up my homestead:
 
 https://www.youtube.com/watch?v=rs2Hzx4qBm8
+
+composer create-project --prefer-dist laravel/laravel passerlist
+cd passerlist
+composer require laravel/homestead --dev
+vendor/bin/homestead make
+ssh-keygen  -t rsa C "youremail@test.com"
+vagrant up
+
 
 
 # The Hosts File
