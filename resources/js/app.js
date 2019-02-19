@@ -23,6 +23,7 @@ window.Vue = require('vue');
 Vue.component('navbar-component', require('./components/NavbarComponent.vue').default);
 Vue.component('passer-list-component', require('./components/PasserListComponent.vue').default);
 Vue.component('bonus-list-component', require('./components/BonusComponent.vue').default);
+Vue.component('footer-component', require('./components/FooterComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

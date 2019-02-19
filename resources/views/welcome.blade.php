@@ -16,6 +16,7 @@
         <div id="app">
             <navbar-component></navbar-component>
             <passer-list-component></passer-list-component>
+            <footer-component></footer-component>
         </div>
         <script src="{{ asset('js/app.js') }}"></script>
 

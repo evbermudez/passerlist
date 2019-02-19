@@ -37,7 +37,7 @@
                             </div>
 
                             <div class="collapse" id="collapseForm">
-                                <div class="card card-body bg-primary">
+                                <div class="card card-body bg-dark">
                                     <form @submit.prevent="addPasser" class="mb-3">
                                     
                                     <div class="form-group">

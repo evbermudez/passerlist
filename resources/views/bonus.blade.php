@@ -14,7 +14,9 @@
     </head>
     <body>
         <div id="app">
+            <navbar-component></navbar-component>
             <bonus-list-component></bonus-list-component>
+            <footer-component></footer-component>
         </div>
         
         <script src="{{ asset('js/app.js') }}"></script>
