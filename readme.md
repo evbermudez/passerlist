@@ -103,7 +103,7 @@ For Windows:
 
 # Configuring Homestead
 The folders property of the Homestead.yaml file lists all of the folders you wish to share with your Homestead environment. As files within these folders are changed, they will be kept in sync between your local machine and the Homestead environment. You may configure as many shared folders as necessary:
-
+```
 ip: "192.168.10.10"
 memory: 1024
 cpus: 1
@@ -115,18 +115,20 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: '~\Projects\web\laravel\passerlist'
-      to: /home/vagrant/code
+    -
+    map: '~\Projects\web\laravel\passerlist'
+    to: /home/vagrant/code
 
 sites:
-    - map: passerlist.com
-      to: /home/vagrant/code/public
+    -
+    map: passerlist.com
+    to: /home/vagrant/code/public
 
 databases:
     - passers
 name: passerlist
 hostname: passerlist
-
+```
 
 # extra notes for homestead
 
@@ -134,14 +136,14 @@ I followed this tutorial to set up my homestead:
 
 https://www.youtube.com/watch?v=rs2Hzx4qBm8
 
-composer create-project --prefer-dist laravel/laravel passerlist
-cd passerlist
-composer require laravel/homestead --dev
-vendor/bin/homestead make
-ssh-keygen  -t rsa C "youremail@test.com"
-vagrant up
-
-
+```
+ composer create-project --prefer-dist laravel/laravel passerlist
+ cd passerlist
+ composer require laravel/homestead --dev
+ vendor/bin/homestead make
+ ssh-keygen  -t rsa C "youremail@test.com"
+ vagrant up
+```
 
 # The Hosts File
 You must add the "domains" for your Nginx sites to the hosts file on your machine. The hosts file will redirect requests for your Homestead sites into your Homestead machine. On Mac and Linux, this file is located at /etc/hosts. On Windows, it is located at C:\Windows\System32\drivers\etc\hosts. The lines you add to this file will look like the following:
