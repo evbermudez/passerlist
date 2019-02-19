@@ -116,7 +116,7 @@ keys:
 
 folders:
     - map: '~\Projects\web\laravel\passerlist'
-      to: /home/vagrant/Projects/web/appetiser-coding-challenge
+      to: /home/vagrant/code
 
 sites:
     - map: passerlist.com
