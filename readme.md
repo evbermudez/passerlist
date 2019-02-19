@@ -14,7 +14,7 @@ https://i.imgur.com/wb93AUJ.png
 
 https://www.youtube.com/watch?v=aTDDHSMQyeQ&feature=youtu.be
 
-# instructions
+# exam instructions
 
 1. Grab data coming from http://www.pshs.edu.ph/nce2018/ and import the data into a MySQL table named Passers
 
