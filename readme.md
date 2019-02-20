@@ -141,7 +141,7 @@ https://www.youtube.com/watch?v=rs2Hzx4qBm8
  cd passerlist
  composer require laravel/homestead --dev
  vendor/bin/homestead make
- ssh-keygen  -t rsa C "youremail@test.com"
+ ssh-keygen  -t rsa -C "youremail@test.com"
  vagrant up
 ```
 
